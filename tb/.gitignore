@@ -2,3 +2,9 @@ AN.DB
 DVEfiles
 vc_hdrs.h
 *.vpd
+csrc
+sim.log
+simv
+simv.daidir
+ucli.key
+
