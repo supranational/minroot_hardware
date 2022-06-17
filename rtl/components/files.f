@@ -1,0 +1,3 @@
+-v cdc_sync.sv
+-v clk_gate.sv
+-v tree.sv

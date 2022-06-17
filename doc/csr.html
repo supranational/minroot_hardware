@@ -1,0 +1,587 @@
+<table class="regdef" id="Reg_control">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CONTROL @ 0x002y_0000</div>
+   <div><p>Control clocking and reset of the minroot engine</p></div>
+   <div>Reset default = 0x10</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CLK_ENABLE</td><td class="regde"><p>Enable the minroot clock, otherwise the clock is gated</p></td><tr><td class="regbits">3:1</td><td></td><td></td><td></td><td>Reserved</td></tr><tr><td class="regbits">4</td><td class="regperm">rw</td><td class="regrv">0x1</td><td class="regfn">RESET</td><td class="regde"><p>Reset the minroot engine.</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_job_id">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_JOB_ID @ 0x002y_1000</div>
+   <div><p>Identifier for job being loaded into engine</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_JOB_ID</td><td class="regde"><p>32-bit identifier of job being loaded into engine</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_iter_count_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_ITER_COUNT_0 @ 0x002y_1004</div>
+   <div><p>Number of minroot iterations in job</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_ITER_COUNT_0</td><td class="regde"><p>Number of minroot iterations in job, bits [31:0]</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_iter_count_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_ITER_COUNT_1 @ 0x002y_1008</div>
+   <div><p>Number of minroot iterations in job</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_ITER_COUNT_1</td><td class="regde"><p>Number of minroot iterations in job, bits [63:32]</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_start_iter_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_START_ITER_0 @ 0x002y_100c</div>
+   <div><p>Starting iteration</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_START_ITER_0</td><td class="regde"><p>Starting iteration, bits [31:0]</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_start_iter_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_START_ITER_1 @ 0x002y_1010</div>
+   <div><p>Starting iteration</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_START_ITER_1</td><td class="regde"><p>Starting iteration, bits [63:32]</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_0 @ 0x201014</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_0</td><td class="regde"><p></p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_1 @ 0x201018</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_1</td><td class="regde"><p>For CMD_X1</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_2">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_2 @ 0x20101c</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_2</td><td class="regde"><p>For CMD_X2</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_3">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_3 @ 0x201020</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_3</td><td class="regde"><p>For CMD_X3</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_4">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_4 @ 0x201024</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_4</td><td class="regde"><p>For CMD_X4</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_5">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_5 @ 0x201028</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_5</td><td class="regde"><p>For CMD_X5</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_6">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_6 @ 0x20102c</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_6</td><td class="regde"><p>For CMD_X6</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_7">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_7 @ 0x201030</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_7</td><td class="regde"><p>For CMD_X7</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_8">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_8 @ 0x201034</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_8</td><td class="regde"><p>For CMD_X8</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_x_9">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_X_9 @ 0x201038</div>
+   <div><p>X input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_X_9</td><td class="regde"><p>For CMD_X9</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_0 @ 0x20103c</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_0</td><td class="regde"><p></p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_1 @ 0x201040</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_1</td><td class="regde"><p>For CMD_Y1</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_2">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_2 @ 0x201044</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_2</td><td class="regde"><p>For CMD_Y2</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_3">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_3 @ 0x201048</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_3</td><td class="regde"><p>For CMD_Y3</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_4">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_4 @ 0x20104c</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_4</td><td class="regde"><p>For CMD_Y4</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_5">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_5 @ 0x201050</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_5</td><td class="regde"><p>For CMD_Y5</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_6">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_6 @ 0x201054</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_6</td><td class="regde"><p>For CMD_Y6</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_7">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_7 @ 0x201058</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_7</td><td class="regde"><p>For CMD_Y7</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_8">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_8 @ 0x20105c</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_8</td><td class="regde"><p>For CMD_Y8</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_y_9">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_Y_9 @ 0x201060</div>
+   <div><p>Y input</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">CMD_Y_9</td><td class="regde"><p>For CMD_Y9</p></td></table>
+<br>
+<table class="regdef" id="Reg_cmd_start">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.CMD_START @ 0x002y_1064</div>
+   <div><p>Write to start engine</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">0</td><td class="regperm">wo</td><td class="regrv">x</td><td class="regfn">START</td><td class="regde"><p>Once starting values have been written top the CMD_* registers, the
+CMD_START register can be written to initiate the operation.</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_job_id">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_JOB_ID @ 0x002y_2000</div>
+   <div><p>Identifier of job for which status is being reported</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_JOB_ID</td><td class="regde"><p>A read of STATUS_JOB_ID will both return the id of the job running
+on the engine AND take a snapshot of the most recent result provided
+by the engine.  Reads of STATUS_* registers will return the
+snapshotted result values.</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_iter_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_ITER_0 @ 0x002y_2004</div>
+   <div><p>Iteration within job for which status is being reported</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_ITER_0</td><td class="regde"><p>Iteration within job, bits [31:0]</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_iter_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_ITER_1 @ 0x002y_2008</div>
+   <div><p>Iteration within job for which status is being reported</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_ITER_1</td><td class="regde"><p>Iteration within job, bits [63:32]</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_0 @ 0x20200c</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_0</td><td class="regde"><p></p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_1 @ 0x202010</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_1</td><td class="regde"><p>For STATUS_X1</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_2">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_2 @ 0x202014</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_2</td><td class="regde"><p>For STATUS_X2</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_3">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_3 @ 0x202018</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_3</td><td class="regde"><p>For STATUS_X3</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_4">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_4 @ 0x20201c</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_4</td><td class="regde"><p>For STATUS_X4</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_5">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_5 @ 0x202020</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_5</td><td class="regde"><p>For STATUS_X5</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_6">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_6 @ 0x202024</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_6</td><td class="regde"><p>For STATUS_X6</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_7">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_7 @ 0x202028</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_7</td><td class="regde"><p>For STATUS_X7</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_8">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_8 @ 0x20202c</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_8</td><td class="regde"><p>For STATUS_X8</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_x_9">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_X_9 @ 0x202030</div>
+   <div><p>X result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_X_9</td><td class="regde"><p>For STATUS_X9</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_0">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_0 @ 0x202034</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_0</td><td class="regde"><p></p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_1">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_1 @ 0x202038</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_1</td><td class="regde"><p>For STATUS_Y1</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_2">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_2 @ 0x20203c</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_2</td><td class="regde"><p>For STATUS_Y2</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_3">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_3 @ 0x202040</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_3</td><td class="regde"><p>For STATUS_Y3</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_4">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_4 @ 0x202044</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_4</td><td class="regde"><p>For STATUS_Y4</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_5">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_5 @ 0x202048</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_5</td><td class="regde"><p>For STATUS_Y5</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_6">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_6 @ 0x20204c</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_6</td><td class="regde"><p>For STATUS_Y6</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_7">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_7 @ 0x202050</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_7</td><td class="regde"><p>For STATUS_Y7</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_8">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_8 @ 0x202054</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_8</td><td class="regde"><p>For STATUS_Y8</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_y_9">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_Y_9 @ 0x202058</div>
+   <div><p>Y result.</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_Y_9</td><td class="regde"><p>For STATUS_Y9</p></td></table>
+<br>
+<table class="regdef" id="Reg_status_end">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.STATUS_END @ 0x20205c</div>
+   <div><p>Dummy register locating the end of the status registers</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">0</td><td class="regperm">ro</td><td class="regrv">x</td><td class="regfn">STATUS_END</td><td class="regde"><p></p></td></table>
+<br>
+<table class="regdef" id="Reg_rw">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.RW @ 0x20fff8</div>
+   <div><p>Temporary read/write space for verification</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">31:0</td><td class="regperm">rw</td><td class="regrv">0x0</td><td class="regfn">RW</td><td class="regde"><p>Remove me.</p></td></table>
+<br>
+<table class="regdef" id="Reg_end_of_range">
+ <tr>
+  <th class="regdef" colspan=5>
+   <div>minroot_vdf.END_OF_RANGE @ 0x20fffc</div>
+   <div><p>Mark the end of the address space</p></div>
+   <div>Reset default = 0x0</div>
+  </th>
+ </tr>
+<tr><td colspan=5></td></tr>
+<tr><th width=5%>Bits</th><th width=5%>Type</th><th width=5%>Reset</th><th>Name</th><th>Description</th></tr><tr><td class="regbits">0</td><td class="regperm">wo</td><td class="regrv">0x0</td><td class="regfn">marker</td><td class="regde"><p>A marker</p></td></table>
+<br>
