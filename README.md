@@ -4,18 +4,16 @@ System Verilog implementation of the [MinRoot](https://khovratovich.github.io/Mi
 
 # Contents
 
-**doc**
-Command and status register (CSR) details in html format
+**doc** - Command and status register (CSR) details in html format
 
 **rtl**
 - ahb - AHB subordinate CSR bridge
 - components - primitive components (synchronizer, clock gate, compression tree)
-- csr - primitives and specific CSRs for minroot, utilized [reggen](https://github.com/lowRISC/opentitan/tree/master/util/reggen) from the [OpenTitan](https://opentitan.org/) project
-- minroot_engine - main engine performing minroot over pasta curves
+- csr - primitives and specific CSRs for MinRoot, utilized [reggen](https://github.com/lowRISC/opentitan/tree/master/util/reggen) from the [OpenTitan](https://opentitan.org/) project
+- minroot_engine - main engine performing MinRoot over pasta curves
 - top - top level 
 
-**tb**
-Basic testbench to demonstrate functionality
+**tb** - Basic testbench to demonstrate functionality
 
 # Test
 

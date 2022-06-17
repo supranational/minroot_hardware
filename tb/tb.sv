@@ -1,5 +1,6 @@
 // Copyright Supranational LLC
-//
+// Licensed under the Apache License, Version 2.0, see LICENSE for details.
+// SPDX-License-Identifier: Apache-2.0
 
 module tb;
 
@@ -37,8 +38,8 @@ module tb;
   // ----------------------------------------------------------------------
   // Pull in the engine configuration info
 
-  localparam int N_MINROOT           = 1;//FIXME
-  localparam int N_MINROOT_PER_GROUP = 1;//FIXME
+  localparam int N_MINROOT           = 1;
+  localparam int N_MINROOT_PER_GROUP = 1;
 
   function automatic csr_addr_e get_minroot_reg_addr
     (int i, csr_addr_e offset);
